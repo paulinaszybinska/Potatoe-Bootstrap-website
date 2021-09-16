@@ -2,24 +2,30 @@ html, body {
     height: 100%;
     width: 100%;
     color: #222;
+    font-family: "Titillium Web", "Arial", sans-serif;
+    background-color: #ffeddb;
 }
 
-/* Navigation */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
 .navbar {
-    padding: .8rem;
+    letter-spacing: 1.5px;
+    background-color: #ffeddb;
+    font-weight: 700;
 }
 
-.navbar-nav li {
-    padding-right: 1.5rem;
+#navmenu a:hover {
+    color: #7b8fb6;
 }
 
-.nav-link {
-    font-size: 1.1rem;
-}
-
-/* Introduction */
-#introduction {
-    background: url(images/about.jpg) no-repeat center center fixed;
+/* head section */
+#home {
+    background: url(images/heading.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -34,11 +40,159 @@ html, body {
 }
 
 .landing-text h1 {
-    font-size: 500%;
+    font-family: "Rubik Mono One";
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-shadow: 2px 0px 16px #ffeddb;
+}
+
+.landing-text h4 {
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 2px 0px 16px #ffeddb;
+}
+
+/* about section */
+#about {
+    margin-top: 80px;
+}
+
+#about h3 {
     font-weight: 700;
 }
 
-/* Blockquote */
-.padding {
-    padding: 80px 0;
+#about button {
+    color: white;
+    background-color: grey;
+}
+
+#about button:hover {
+    color: white;
+} 
+
+#about img {
+    border-radius: 160px;
+}
+
+/* quote section */
+.quote {
+    margin-top: 0;
+    background-image: url(images/quote.jpg);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.quote p {
+    opacity: 2;
+    color: white;
+    font-size: 50px;
+    text-shadow: 8px 0px 15px black;
+}
+
+.quote .blockquote-footer {
+    opacity: 2;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 0px 16px black;
+}
+
+/* offer */
+#offer {
+    margin-bottom: 100px;
+}
+
+#offer img {
+    border-radius: 80px;
+}
+
+#offer h2 {
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.product-offer {
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #7b8fb6;
+}
+
+/* fixed photo */
+#fixed {
+    background: url(images/fixed.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    opacity: inherit;
+}
+
+/* contact form */
+#contact-form {
+    margin-top: 80px;
+    background-image: url(images/many-potatoes-together.jpg);
+    background-size: cover;
+}
+
+.head {
+    background: grey;
+    border-radius: 5px;
+    margin-top: -40px;
+}
+
+.effect {
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px, 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn1 {
+    background: grey;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.btn1:hover {
+    background-color: #7b8fb6;
+}
+
+/* footer */
+footer {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.footer h6 {
+    margin-bottom: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #222;
+}
+
+.footer a:hover {
+    color: #7b8fb6;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #222;
+}
+
+.fa:hover {
+    color: #7b8fb6;
+    text-decoration: none;
+}
+
+.icon {
+    max-width: 50px;
 }
