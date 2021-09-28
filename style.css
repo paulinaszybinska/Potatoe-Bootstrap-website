@@ -67,6 +67,7 @@ html, body {
 }
 
 #about button:hover {
+    background: #7b8fb6;
     color: white;
 } 
 
